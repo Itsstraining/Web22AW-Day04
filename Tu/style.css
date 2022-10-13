@@ -1,0 +1,142 @@
+.nav_bar{
+    height: 100px;
+    background-color: #c81f34;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+}
+.banner{
+    height: 400px;
+    background-color: #de750d;
+}
+.body{
+    height: 400px;
+    background-color: bisque;
+  }
+.footer{
+    height: 200px;
+    background-color: aquamarine;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    float: none;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.phone{
+    height: 50px;
+    width: 140px;
+    /* display: block; */
+    margin: auto;
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+.phone:hover{
+    transform: scale(1.1);
+}
+.img{
+    float: right;
+
+}
+.imgbanner{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.logo_jolli{
+    margin: auto;
+    padding: 0 auto;
+}
+.btn{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    color: white;
+    background-color: #c81f34;
+    cursor: pointer;
+    padding:10px 10px;
+    margin: 100%;
+}
+.btn:hover{
+    transition: all;
+}
+.fa_fa-bars{
+    cursor: pointer;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    border: 50px 50px ;
+}
+.item1{
+    width: 390px;
+    height: 400px;
+}
+.item2{
+    width: 385px;
+    height: 400px;
+}
+.item3{
+    width: 380px;
+    height: 400px;
+}
+.monan1{
+    width: 320px;
+    height: 250px;
+    margin: 30px 30px 10px 30px;
+}
+.monan2{
+    width: 320px;
+    height: 250px;
+    margin: 30px 30px 10px 30px;
+}
+.monan3{
+    width: 320px;
+    height: 250px;
+    margin: 30px 30px 10px 30px;
+}
+.text1{
+    font-size: 15px;
+    margin: 0px 30px 10px 30px;
+}
+/* .itemimg{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+} */
+.itemtext{
+    margin: 0 auto;
+    text-align: center;
+}
+.itemprice1{
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.list_item{
+    width: 1156px;
+    height: 400px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+.order{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.btn_order{
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+    float: right;
+}
