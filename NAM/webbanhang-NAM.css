@@ -1,0 +1,15 @@
+.menu{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width: 78p;
+    height: 78px;
+}
+.menu-con {
+    color: #202124;
+    text-decoration: none;
+  }
+.menu-con:hover{
+    text-decoration: underline;
+}
