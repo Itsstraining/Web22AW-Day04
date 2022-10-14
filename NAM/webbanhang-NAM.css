@@ -99,7 +99,7 @@ h2 {
   }
 h2:after {
     content: "";
-    width: 70%;
+    width: 60%;
     height: 1px;
     background: #000;
     right: 0;
@@ -142,4 +142,23 @@ h2:after {
     padding: 4px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+  }
+  body{
+    margin: 0 auto;
+  }
+  .ten-combo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .gia{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 6px 12px;
+  }
+  .desc-combo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 12px;
   }
